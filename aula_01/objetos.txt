@@ -1,0 +1,9 @@
+Delivery: Pizza, Hambúrguer e Pastel
+
+Pizza: Quatro Queijos, Temperatura e valor
+Hambúrger: X-Burguer, Montagem e Assado
+Pastel: Carne com Queijo, Massa e Frito
+
+Pizza: Entregar e Receber
+Hambúrguer: Montar e Vender
+Pastel: Fritar e Comer
