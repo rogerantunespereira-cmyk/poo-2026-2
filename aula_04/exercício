@@ -1,0 +1,20 @@
+# Proteção de dados do personagem
+
+Com base no que temos na aula 03
+
+* Requisitos
+
+-'Personagem' com atributos privados;
+-'Arma' com atributos privados;
+- construtores;
+-'equipar(Arma)';
+-'atacar(Personagem)';
+-'receberDano(int)' controlado pela classe 'Personagem';
+-'estarVivo()';
+-'exibirStatus()';
+-Impedir de haver vida negativa
+-Não alterar a vida diretamente no main
+
+# Bônus:
+
+Criar armadura
