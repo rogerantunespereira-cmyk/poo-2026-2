@@ -18,7 +18,7 @@ public class Main {
         guerreiro.atacar(troll);
         troll.curar(999);
         troll.atacar(guerreiro);
-        guerreiro.receberDano(15);
+        
 
 
 
