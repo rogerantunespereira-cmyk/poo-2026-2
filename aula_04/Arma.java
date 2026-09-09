@@ -7,13 +7,13 @@ public class Arma {
 
         if (nome == null || nome.isBlank()) {
             throw new IllegalArgumentException(
-                "O nome da arma não pode ficar vazio."
+                "O nome da arma não pode ficar vazio"
             );
         }
 
         if (dano < 0) {
             throw new IllegalArgumentException(
-                "O dano não pode ser negativo."
+                "O dano não pode ser negativo"
             );
         }
 

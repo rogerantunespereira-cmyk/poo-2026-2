@@ -49,7 +49,7 @@ public class Personagem {
 
     public void equiparArma(Arma novaArma) {
         if (novaArma == null) {
-            System.out.println(nome + " tentou equipar uma arma que não existe.");
+            System.out.println(nome + " tentou equipar uma arma que não existe");
             return;
         }
 
@@ -59,7 +59,7 @@ public class Personagem {
 
     public void equiparArmadura(Armadura novaArmadura) {
         if (novaArmadura == null) {
-            System.out.println(nome + " tentou equipar uma armadura que não existe.");
+            System.out.println(nome + " tentou equipar uma armadura que não existe");
             return;
         }
 
@@ -70,12 +70,12 @@ public class Personagem {
     public void atacar(Personagem alvo) {
 
         if (alvo == null) {
-            System.out.println(nome + " tentou atacar alguém que não existe.");
+            System.out.println(nome + " tentou atacar alguém que não existe");
             return;
         }
 
         if (!estaVivo()) {
-            System.out.println(nome + " está derrotado e não pode atacar.");
+            System.out.println(nome + " está derrotado e não pode atacar");
             return;
         }
 
@@ -106,32 +106,32 @@ public class Personagem {
 
         vida -= danoRecebido;
 
-        System.out.println(nome + " recebeu " + danoRecebido + " de dano.");
+        System.out.println(nome + " recebeu " + danoRecebido + " de dano");
 
         if (defesa > 0) {
-            System.out.println("A armadura reduziu " + Math.min(defesa, danoTotal) + " de dano.");
+            System.out.println("A armadura reduziu " + Math.min(defesa, danoTotal) + " de dano");
         }
 
         if (vida < 0) {
             vida = 0;
         }
 
-        System.out.println(nome + " ficou com " + vida + " de vida.");
+        System.out.println(nome + " ficou com " + vida + " de vida");
 
         if (!estaVivo()) {
-            System.out.println(nome + " foi derrotado.");
+            System.out.println(nome + " foi derrotado");
         }
     }
 
     public void curar(int quantidade) {
 
         if (!estaVivo()) {
-            System.out.println(nome + " está derrotado e não pode se curar.");
+            System.out.println(nome + " está derrotado e não pode se curar");
             return;
         }
 
         if (quantidade < 0) {
-            System.out.println("A quantidade de cura não pode ser negativa.");
+            System.out.println("A quantidade de cura não pode ser negativa");
             return;
         }
 
@@ -145,6 +145,6 @@ public class Personagem {
 
         int curaReal = vida - vidaAntes;
 
-        System.out.println(nome + " curou " + curaReal + " de vida.");
+        System.out.println(nome + " curou " + curaReal + " de vida");
     }
 }

@@ -7,13 +7,13 @@ public class Armadura {
 
         if (nome == null || nome.isBlank()) {
             throw new IllegalArgumentException(
-                "O nome da armadura não pode ficar vazio."
+                "O nome da armadura não pode ficar vazio"
             );
         }
 
         if (defesa < 0) {
             throw new IllegalArgumentException(
-                "A defesa não pode ser negativa."
+                "A defesa não pode ser negativa"
             );
         }
 
