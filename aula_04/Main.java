@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args ) {
 
         Personagem guerreiro = new Personagem("Roger", 100, 100, 30, 20);
-        Personagem troll = new Personagem("Troll da montanha", 120, 120, 15, 10);
+        Personagem troll = new Personagem("Troll da montanha", 120, 120, 25, 10);
 
         Arma espada = new Arma("Espada Excalibur", 20);
 
@@ -18,6 +18,7 @@ public class Main {
         guerreiro.atacar(troll);
         troll.curar(999);
         troll.atacar(guerreiro);
+        guerreiro.receberDano(15);
 
 
 
