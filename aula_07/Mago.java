@@ -1,4 +1,3 @@
-package aula_07;
 
 public class Mago extends Personagem {
     public Mago(String Nome) {

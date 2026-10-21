@@ -1,5 +1,3 @@
-package aula_07;
-
 public class Personagem {
     private String Nome;
     
