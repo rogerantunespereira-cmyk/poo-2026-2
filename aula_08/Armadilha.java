@@ -1,5 +1,3 @@
-package aula_08;
-
 public class Armadilha implements Atacante {
     private final String identificacao;
 

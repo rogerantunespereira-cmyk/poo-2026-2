@@ -1,5 +1,3 @@
-package aula_08;
-
 public abstract class Personagem implements Atacante {
     private final String Nome;
     

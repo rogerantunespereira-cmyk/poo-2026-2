@@ -1,5 +1,3 @@
-package aula_08;
-
 public class Arqueiro extends Personagem {
     public Arqueiro(String Nome) {
         super(Nome);

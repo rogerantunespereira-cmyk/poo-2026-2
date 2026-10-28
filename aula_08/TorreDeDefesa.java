@@ -1,5 +1,3 @@
-package aula_08;
-
 public class TorreDeDefesa implements Atacante {
     private final String local;
 
