@@ -1,0 +1,8 @@
+
+javac -encoding UTF-8 -d bin src\*.java
+java -cp bin MainDesafio
+
+
+
+javac -encoding UTF-8 -d bin src\*.java testes\*.java
+java -cp bin TesteDesafio
